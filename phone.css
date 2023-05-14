@@ -1,0 +1,76 @@
+@media only screen and (max-width: 764px){
+
+    .grid-container{
+        display: none;
+    }
+
+    .info-container{
+        display: none;
+    }
+
+    .pocket-container{
+        display: none;
+    }
+
+    .footer{
+        display: none;
+    }
+
+    .mobile-ui{
+        display: grid;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        
+    }
+
+    .mob-logo{
+        height: 70vh;
+        width: auto; 
+    }
+
+    .content-box{
+        position: relative;
+    }
+
+    /* .content-box::before{
+        
+        background: url(/img/food-bg.jpg) no-repeat center center/cover;
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 113%;
+        z-index: -1;
+        opacity: 0.7;
+    } */
+
+    .content{
+        text-align: center;
+        font-size: 67%;
+    }
+
+    h2{
+
+        color: whitesmoke;
+    }
+    h5{
+        /* font-weight: 600; */
+        font-size: 110%;
+        color: gray;
+    }
+
+    a{
+        text-decoration: none;
+        cursor: pointer;
+        border: 1px solid orange;
+        color: white;
+        background-color: orange;
+        /* margin: 67px; */
+        display: inline-block;
+        width: 101px;
+        height: 35px;
+        font-size: 13px;
+    }
+
+}

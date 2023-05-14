@@ -1,3 +1,7 @@
+.mobile-ui{
+    display: none;
+}
+
 /* START CONTAINER */
 .grid-container{
     display: grid;
