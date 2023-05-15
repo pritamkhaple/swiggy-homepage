@@ -64,17 +64,25 @@
     font-size: 18px !important;
 }
 
+.locate-box{
+    position: relative;
+}
+
 .location{
     border: none;
     background-color: transparent;
     position: absolute;
-    top: 291px;
-    left: 400px;
-    padding: 13px;
+    left: 62%;
+    top: 59%;
+    /* padding: 13px; */
 }
 
-button:hover{
+
+.location:hover{
     background-color: aqua;
+    border: 1px solid aqua;
+    /* height: 25px;
+    width: 120px; */
 }
 
 .findfood{
